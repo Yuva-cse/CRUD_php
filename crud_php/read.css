@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+}
+table,tr,th,td{
+    margin:auto;
+    padding:10px;
+    border:1px solid black;
+    border-collapse:collapse;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 50%;
+}
+table{
+    width: 100%;
+}
+th{
+    background-color: rgb(113, 162, 218);
+}
+td{
+    background-color: rgb(142, 214, 193);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+}
